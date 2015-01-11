@@ -56,6 +56,12 @@ namespace TaskbarTimer {
             TaskDialogCommandLink btn10Munutes = new TaskDialogCommandLink("btn10min", "10 minutes", "Set timer to 10 minutes and start the timer");
             btn10Munutes.Click += (sender, e) => SetInterval(10);
 
+            TaskDialogCommandLink btn15Munutes = new TaskDialogCommandLink("btn10min", "15 minutes", "Set timer to 15 minutes and start the timer");
+            btn15Munutes.Click += (sender, e) => SetInterval(15);
+
+            TaskDialogCommandLink btn20Munutes = new TaskDialogCommandLink("btn10min", "20 minutes", "Set timer to 20 minutes and start the timer");
+            btn20Munutes.Click += (sender, e) => SetInterval(20);
+
             TaskDialogCommandLink btn30Munutes = new TaskDialogCommandLink("btn30min", "Half an hour", "Set timer to 30 minutes and start the timer");
             btn30Munutes.Click += (sender, e) => SetInterval(30);
 
@@ -70,6 +76,8 @@ namespace TaskbarTimer {
 
             _dialog.Controls.Add(btn5Munutes);
             _dialog.Controls.Add(btn10Munutes);
+            _dialog.Controls.Add(btn15Munutes);
+            _dialog.Controls.Add(btn20Munutes);
             _dialog.Controls.Add(btn30Munutes);
             _dialog.Controls.Add(btn60Munutes);
             _dialog.Controls.Add(btnOther);

@@ -120,7 +120,7 @@ namespace TaskbarTimer {
         private void ConfigureJumpList() {
             JumpListHelper jumpListHelper = new JumpListHelper();
             jumpListHelper.ConfigureJumpList();
-            if (_totalMinutes != 5 && _totalMinutes != 10 && _totalMinutes != 30) {
+            if (_totalMinutes != 5 && _totalMinutes != 10 && _totalMinutes != 15 && _totalMinutes != 20 && _totalMinutes != 30) {
                 jumpListHelper.AddCustomLink(_totalMinutes, _options.TimerName);
             }
             jumpListHelper.Save();

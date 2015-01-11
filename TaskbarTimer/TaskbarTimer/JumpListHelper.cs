@@ -54,7 +54,7 @@ namespace TaskbarTimer {
         /// Configures the jump list 
         /// </summary>
         public void ConfigureJumpList() {
-            JumpList.AddUserTasks(new[] { GetMinutesLink(5, null, Icon), GetMinutesLink(10, null, Icon), GetMinutesLink(30, null, Icon) });
+            JumpList.AddUserTasks(new[] { GetMinutesLink(5, null, Icon), GetMinutesLink(10, null, Icon), GetMinutesLink(15, null, Icon), GetMinutesLink(20, null, Icon), GetMinutesLink(30, null, Icon) });
         }
 
         /// <summary>
