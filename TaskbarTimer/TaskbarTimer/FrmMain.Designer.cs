@@ -1,4 +1,4 @@
-﻿namespace TaskbarTimer {
+namespace TaskbarTimer {
     partial class FrmMain {
         /// <summary>
         /// Required designer variable.
